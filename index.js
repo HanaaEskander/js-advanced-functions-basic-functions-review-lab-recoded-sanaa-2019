@@ -26,14 +26,14 @@ const Calculator = {
     return num1 / num2;
   }
 }
-function actionApplyer (start , array){
+function actionApplyer (here , array){
     if (array.length === 0 ) {
         return 0 ;
     }
     for (const OMG of array) {
-        start = OMG(start);
+        here = OMG(here);
     }
-    return start;
+    return here;
 
 
 }

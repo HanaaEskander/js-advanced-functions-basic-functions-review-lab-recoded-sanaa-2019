@@ -1,5 +1,5 @@
 // Your code here
-function saturdayFun(activity="roller-skate"){
+function saturdayFun(activity="jump"){
   return `This Saturday, I want to ${activity}!`;
 }
 

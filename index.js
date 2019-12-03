@@ -12,13 +12,5 @@ function wrapAdjective(value = "*"){
   }
 }
 
-function actionApplyer (start , funArr){
-    if (funArr.length === 0 ) {
-        return 0 ;
-    }
-    for (const fun of funArr) {
-        start = fun(start);
-    }
-    return start;
-}
+let encouragingPromptFunction = wrapAdjective("!!!")
 

@@ -16,14 +16,14 @@ const Calculator = {
   add:function(num1, num2){
     return num1 + num2;
   },
-  subtract:function(arg1, arg2){
-    return arg1 - arg2;
+  subtract:function(num1, num2){
+    return num1 - num2;
   },
-  multiply:function(arg1, arg2) {
-    return arg1 * arg2;
+  multiply:function(num1, num2) {
+    return num1 * num2;
   },
-  divide:function(arg1, arg2){
-    return arg1 / arg2;
+  divide:function(num1, num2){
+    return num1 / num2;
   }
 }
 function actionApplyer (start , funArr){

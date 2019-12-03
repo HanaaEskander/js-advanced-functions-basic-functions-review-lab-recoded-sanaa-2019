@@ -7,14 +7,14 @@ function mondayWork(activity="go to the office"){
   return `This Monday, I will ${activity}.`;
 }
 function wrapAdjective(value = "*"){
-  return function(item = "special"){
-    return `You are ${value}${item}${value}!`;
+  return function(me = "special"){
+    return `You are ${value}${me}${value}!`;
   }
 }
 
 const Calculator = {
-  add:function(arg1, arg2){
-    return arg1 + arg2;
+  add:function(num1, num2){
+    return num1 + num2;
   },
   subtract:function(arg1, arg2){
     return arg1 - arg2;

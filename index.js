@@ -12,5 +12,5 @@ function wrapAdjective(value = "*"){
   }
 }
 
-let encouragingPromptFunction = wrapAdjective("!!!")
+let encouragingPromptFunction = wrapAdjective("!!!");
 
